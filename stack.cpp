@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int stack[100],n=5,top=-1;
-void push(int val)
+void push(val)
 {
     if(top>=-1)
     cout<<"Stack overflow"<<endl;
